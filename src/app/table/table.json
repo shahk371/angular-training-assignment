@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Morin Cummings",
+      "standard": 10,
+      "section": 45,
+      "subj1": "D",
+      "subj2": 19,
+      "subj3": 72
+    },
+    {
+      "name": "Mckee Flores",
+      "standard": 20,
+      "section": "E",
+      "subj1": 96,
+      "subj2": 28,
+      "subj3": 31
+    },
+    {
+      "name": "Downs Acevedo",
+      "standard": 20,
+      "section": "F",
+      "subj1": 63,
+      "subj2": 28,
+      "subj3": 91
+    },
+    {
+      "name": "Mccall Collier",
+      "standard": 20,
+      "section": "A",
+      "subj1": 19,
+      "subj2": 59,
+      "subj3": 63
+    },
+    {
+      "name": "Leola Christian",
+      "standard": 10,
+      "section":"B",
+      "subj1": 74,
+      "subj2": 100,
+      "subj3": 16
+    },
+    {
+      "name": "Maureen Alford",
+      "standard": 20,
+      "section": "C",
+      "subj1": 21,
+      "subj2": 50,
+      "subj3": 19
+    }
+]

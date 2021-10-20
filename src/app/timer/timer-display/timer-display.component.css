@@ -1,0 +1,15 @@
+div {
+    border: 2px solid black;
+    height: 150px;
+    width: 450px;
+}
+
+p {
+    text-align: center;
+}
+
+.add-font-style {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px;
+}

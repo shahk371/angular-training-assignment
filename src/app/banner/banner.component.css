@@ -1,0 +1,22 @@
+.divMargin {
+    border: 1px solid green;
+    padding: 20px;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 400px;}
+  }
+
+#div1 {
+    animation-timing-function: ease;
+}
+
+#div1 {
+    width: 300px;
+    height: 20px;
+    background-color: green;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="btnContainer">
+        <button class="btn" (click)="isListView=true; isActive=!isActive;" [ngClass]="{'active': isActive}">
+            <i class="fa fa-bars"></i>List
+        </button>
+        <button class="btn" (click)="isListView=false; isActive=!isActive" [ngClass]="{'active': !isActive}">
+            <i class="fa fa-th-large">Grid</i>
+        </button>
+        <select style="margin-left:20px;" [(ngModel)]="selectedPrice" (change)="getSelectedValue(selectedPrice?.price1, selectedPrice?.price2)">
+            <option value="all">All</option>
+            <option *ngFor="let price of priceList" [ngValue]="price">{{price.label}}</option>
+        </select>
+    </div>
+    <div class="flex-container"> 
+        <div *ngFor="let product of productsList" [ngStyle]="{flex: getStyle()}">
+            <div>{{product.name}}</div>
+            <div>{{product.price}}</div>
+        </div>
+    </div>
+</div>
+

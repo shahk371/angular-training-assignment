@@ -1,0 +1,11 @@
+div {
+    width: 700px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-font-style {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px 20px;
+}

@@ -1,0 +1,6 @@
+<div>
+    <app-timer-display style="float:left" [timerDisplay]="timerValue"></app-timer-display>
+    <app-timer-start-pause-functionality style="float:right" (buttonclicked)="getTimerValue($event)" [currentTimerValue]="timerValue"></app-timer-start-pause-functionality>
+    <app-timer-log [logMessages]="logMessages" style="float:left"></app-timer-log>
+    <app-timer-count [startTimerCount]="startTimerCount" [pausedTimerCount]="pausedTimerCount" style="float:right"></app-timer-count>
+</div>

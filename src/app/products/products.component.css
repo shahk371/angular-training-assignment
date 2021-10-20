@@ -1,0 +1,37 @@
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color: #ddd;
+}
+  
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.btnContainer {
+    float:right;
+}
+
+.container {
+   margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    clear: right;
+}
+  
+.flex-container > div {
+    flex: 21%;
+    margin: 5px;
+    height: 100px;
+    border: 1px solid black;
+}
